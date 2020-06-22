@@ -1,0 +1,9 @@
+test
+discard
+scripts
+.vscode
+
+node_modules
+package.json
+package-lock.json
+lib

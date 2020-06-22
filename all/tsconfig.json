@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "outDir": "./lib",
+    "removeComments": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": false,
+    "baseUrl": "./",
+    "paths": {
+      "@wrserver/core": [
+        "../core/index.ts"
+      ],
+      "@wrserver/core/*": [
+        "../core/*"
+      ],
+      "@wrserver/crypt": [
+        "../crypt/index.ts"
+      ],
+      "@wrserver/crypt/*": [
+        "../crypt/*"
+      ],
+      "@wrserver/mail": [
+        "../mail/index.ts"
+      ],
+      "@wrserver/mail/*": [
+        "../mail/*"
+      ],
+      "@wrserver/data": [
+        "../data/index.ts"
+      ],
+      "@wrserver/data/*": [
+        "../data/*"
+      ],
+      "@wrserver/roles": [
+        "../roles/index.ts"
+      ],
+      "@wrserver/roles/*": [
+        "../roles/*"
+      ],
+      "@wrserver/auth": [
+        "../auth/index.ts"
+      ],
+      "@wrserver/auth/*": [
+        "../auth/*"
+      ]
+    }
+  },
+  "files": [
+    "index.ts"
+  ]
+}
